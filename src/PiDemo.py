@@ -1,4 +1,4 @@
-# System imports
+ # System imports
 import socket
 import time
 from time import sleep
@@ -15,7 +15,6 @@ from hal import hal_dc_motor as dc_motor
 from hal import hal_buzzer as buzzer
 from hal import hal_servo as servo
 import version as ver
-
 def blink_led(delay):
     # Led Blink
     led.init()
